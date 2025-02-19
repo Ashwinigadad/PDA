@@ -4,18 +4,18 @@ import { ClipboardCheck, Scale, Search, Brain, FileText } from "lucide-react"
 
 export default function ServicesPage() {
   return (
-    <div className="w-full min-h-screen bg-[#F5F5F5] text-[#1C1C1C] flex flex-col">
+    <div className="w-full min-h-screen bg-gradient-to-br from-[#2563EB] to-[#979fb8] text-white flex flex-col">
       <div className="container mx-auto py-12 md:py-24 max-w-7xl flex-1">
         <div className="text-center mb-12">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#2C2C2C]">
+          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
             Onze Werkzaamheden
           </h1>
-          <p className="mt-4 text-lg text-[#C4A77D]">
+          <p className="mt-4 text-lg text-white">
             Professionele psychodiagnostische diensten op maat
           </p>
         </div>
 
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 text-md">
           {/** Service Cards **/}
           {[
             {
@@ -87,8 +87,8 @@ export default function ServicesPage() {
       <div className="w-full h-auto bg-[#faf6f2] py-16 flex justify-center items-center">
         <div className="container mx-auto grid gap-8 md:grid-cols-2 items-center max-w-7xl">
           <div>
-            <h2 className="text-2xl font-bold mb-4 text-[#2C2C2C]">Onze Werkwijze</h2>
-            <div className="space-y-4">
+            <h2 className="text-5xl font-bold mb-4 text-[#2C2C2C]">Onze Werkwijze</h2>
+            <div className="space-y-4 text-lg" >
               {[
                 { title: "Intake & Analyse", desc: "Grondige bespreking van de hulpvraag en analyse van beschikbare informatie", icon: FileText },
                 { title: "Onderzoek & Observatie", desc: "Uitvoering van diagnostische tests en gedragsobservaties", icon: Brain },
